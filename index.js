@@ -5,7 +5,7 @@
 // console.log(__dirname);
 // console.log(__filename);
 
-const _ = require('lodash');
-const people2 = require('./people');
+// Path
+const os = require('os');
 
-console.log(_.last(people2));
+console.log(os.platform());
